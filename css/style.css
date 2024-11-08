@@ -1,0 +1,1858 @@
+@import url("font.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow-x: hidden;
+    background: rgb(19, 19, 19);
+    max-width: 2500px;
+}
+
+/*----------HEADER----------*/
+.header__font{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.header{
+    display: flex;
+    background: rgb(19, 19, 19);
+    width: 1440px;
+    height: 83px;
+    align-items: center;
+}
+.header__container{
+    margin-left: 92px;
+    margin-right: 90px;
+    display: flex;
+    align-items: center;
+    width: 1256px;
+    height: 37px;
+}
+.name-of-site{
+    width: 179.74px;
+    color: rgb(227, 184, 115);
+    text-transform: uppercase;
+}
+
+/*---navigation---*/
+.nav-of-site__container{
+    margin-left: 95.47px;
+    width: 581.43px;
+    height: 10px;
+}
+.header__menu__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    white-space: nowrap;    
+}
+.menu__item{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.menu__item:hover{
+    color: rgb(227, 184, 115);
+    background-color:  rgb(255, 255, 255);
+}
+.here-now{
+    color: rgb(227, 184, 115);
+}
+
+/*---number of site---*/
+.num-of-site{
+    margin-left: 67.34px;
+    width: 126px;
+    height: 16px;
+    text-align: right;
+    text-decoration-line: underline;
+}
+.num-style{
+    color: rgb(227, 184, 115);
+}
+/*---button reqest a call---*/
+.request-call{
+    margin-left: 45px;
+    width: 161px;
+    height: 37px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.2);
+    background: rgb(227, 184, 115);
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.request-call:hover{
+    color:rgb(227, 184, 115);
+    background:rgb(255, 255, 255);
+}
+
+/*----------MAIN----------*/
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*---section 1---*/
+.first-section__container{
+    width: 1440px;
+    height: 707px;
+    background-image: url(../images/background-first-section.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.7) inset;
+}
+
+.request-for-repairs__container{
+    margin-top: 194px;
+    margin-left: 134px;
+    width: 676.11px;
+    height: 305px;
+}
+.request-for-repairs__header,
+h1{
+    width: 676.11px;
+    height: 105px;
+    color:rgb(255, 255, 255);
+    font-family: "Yeseva One", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.highlight-gold{
+    color: rgb(227, 184, 115);
+}
+/*---description repair---*/
+.description-repair{
+    margin-top: 19px;
+    width: 510px;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+/*---button culculate and submit---*/
+.buttons-for-communication__container{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: left;
+}
+.font__btn{
+    font-family: "Nunito Sans", sans-serif;
+    font-style: italic;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+.calculate__btn{
+    width: 207px;
+    height: 51px;
+    border-radius: 2px;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.3);
+    background: rgb(227, 184, 115);
+    color: rgb(255, 255, 255);
+}
+.calculate__btn:hover{
+    box-shadow: 0px 0px 10px 7px rgb(227, 184, 115, 0.6);
+}
+.submit__btn{
+    width: 207px;
+    height: 51px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+.submit__btn:hover{
+    box-shadow: 0px 0px 10px 7px rgb(255, 255, 255, 0.6);
+}
+
+/*---section 2---*/
+.second-section__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18px;
+    width: 1440px;
+    height: 1074px;
+}
+.completed-projects__container{
+    margin-top: 89px;
+    width: 1171px;
+    height: 552.28px;
+}
+/*---select region container---*/
+.select-region__container{
+    margin-left: 492px;
+    width: 623px;
+    height: 24px;
+}
+.select-region__nav{
+    display: flex;
+    align-items: center;
+    gap: 60.5px;
+    list-style: none;
+    white-space: nowrap;
+}
+.select-region__font{
+    color: rgba(255, 255, 255, 0.3);
+    font-family: "Yeseva One", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.select-region__font:hover{
+    color: rgb(255, 255, 255);
+}
+.line-admiral{
+    margin-top: 6.68px;
+    width: 193.94px;
+    height: 1px;
+    background: rgb(227, 184, 115);
+}
+
+/*---description and photo container---*/
+.description-and-photo__container{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.job-description{
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+    height: auto;
+}
+.job-description__header,
+h2{
+    width: 253px;
+    height: 66px;
+    color: rgb(227, 184, 115);
+    font-family: "Yeseva One", serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: -7%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.text-description{
+    margin-top: 34px;
+    width: 442px;
+    height: 86px;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.img-section-two{
+    width: 679px;
+    height: 482px;
+}
+
+.description-of-the-object__container{
+    margin-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+
+.object-parameters__container{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.third-level-header__parameters{
+    width: 156px;
+    height: 22px;
+    color: rgb(227, 184, 115);
+    font-family: "Yeseva One", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.additional-width{
+    width: 213px;
+}
+.object-parameters{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/*---turning pages---*/
+.turning-pages__container{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.press-page{
+    background-color: rgb(19, 19, 19);
+    cursor: pointer;
+}
+.center-poits{
+    display: flex;
+    gap: 17.54px;
+    align-items: center;
+}
+.m-right{
+    margin-right: 29.5px;
+}
+.m-left{
+    margin-left: 29.5px;
+}
+
+/*---online-control__container---*/
+.subsection__container{
+    position: absolute;
+    margin-top: 732px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.online-control__container{
+    width: 196px;
+    height: 66.79px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.online-control__font{
+    color: rgb(255, 255, 255);
+    font-family: "Yeseva One", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.online-control__img{
+    margin-top: 12.79px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7.76px;
+}
+
+.video-repair__container{
+    margin-top: 31.21px;
+    width: 817px;
+    height: 434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/video-repair.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0 410px rgba(0, 0, 0, 0.7) inset;
+}
+.press-for-play{
+    background: none;
+    cursor: pointer;
+}
+.online-control__linia{
+    margin-top: 62.5px;
+    width: 55px;
+    height: 1.54px;
+    border-radius: 30px;
+    background: rgb(227, 184, 115);
+}
+.text-description__online-control{
+    margin-top: 34.46px;
+    width: 681px;
+    height: 130.91px;
+    color: rgb(54, 54, 54);
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/*---entry form---*/
+.entry-form__online-control{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px;
+    margin-top: 91.5px;
+    width: 769px;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+}
+.input-style{
+    display: flex;
+    flex-direction: column;
+    color: rgba(54, 54, 54, 0.5);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.input-style-inside{
+    margin-top: 7px;
+    width: 231px;
+    color: rgb(54, 54, 54);
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.input-style-inside:focus{
+    outline: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.btn__entry-form{
+    width: 200px;
+    height: 51px;
+    border-radius: 2px;
+    box-shadow: 0px 15px 15px 0px rgba(227, 184, 115, 0.15);
+    background: rgb(227, 184, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn__entry-form:hover{
+    color: rgb(227, 184, 115);
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(227, 184, 115);
+}
+/*---ГАЛОЧКА---*/
+.first-checkbox{
+    margin-top: -11.8px;
+}
+.label {
+    cursor: pointer;
+  }
+  .checkbox{
+    display: none;
+  }
+  .fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: #fff;
+    justify-content: center;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+  .checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+  .text{
+    color: rgb(24, 24, 24);
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 163.68%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+
+/*---section 3---*/
+.third-section__container{
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*---TYPES OF REPAIR---*/
+.types-of-repair__container{
+    margin-top: 779px;
+}
+.types-of-repair__font{
+    color: rgb(24, 24, 24);
+    font-family: "Yeseva One", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*---cost of work---*/
+.cost-of-work__container{
+    margin-top: 31px;
+    width: 1236px;
+    height: 608px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.card-size{
+    width: 392px;
+    height: 421px;
+}
+.cost-of-work__img-first{
+    background-image: url(../images/redecorating.jpeg);
+}
+.cost-of-work__img-second{
+    background-image: url(../images/overhaul.jpeg);
+}
+.cost-of-work__img-third{
+    background-image: url(../images/designer-repair.jpeg);
+}
+.cost-of-work__description{
+    margin-top: 294px;
+    margin-left: 31px;
+    padding: 25px 34px;
+    position: absolute;
+    width: 330px;
+    height: 286px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.cost-of-work__name-card{
+    color: rgb(54, 54, 54);
+    font-family: "Yeseva One", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.cost-of-work__list{
+    width: 267px;
+    height: 178px;
+    color: rgb(149, 149, 149);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.cost-of-work__btn{
+    position: absolute;
+    margin-top: 235px;
+    margin-left: -33px;
+    width: 228px;
+    height: 54px;
+    color: rgb(255, 255, 255);
+    font-family: "Yeseva One", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.3);
+    background: rgb(227, 184, 115);
+    cursor: pointer;
+}
+.cost-of-work__btn:hover{
+    color: rgb(227, 184, 115);
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(227, 184, 115);
+}
+
+/*---section 4---*/
+.fourth-section__container{
+    padding-top: 124px;
+    padding-bottom: 124px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.repit-application__container{
+    position: relative;
+    height: 725.44px;
+}
+.description-of-application__container{
+    position: absolute;
+    width: 1006px;
+    height: 645px;
+    left: -250px;
+    background-image: url(../images/background-fourth-section.png);
+}
+.description-of-application{
+    margin-left: 552px;
+    margin-top: 117.14px;
+    width: 374.81px;
+    height: 473.62px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.work-done{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.numbering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41.76px;
+    height: 41.76px;
+    border: 8px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.15);
+    background: rgb(227, 184, 115);
+}
+.numbering-font{
+    color: rgb(255, 255, 255);
+    font-family: "Yeseva One", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.numbering-description-font{
+    display: flex;
+    align-items: center;
+    width: 325px;
+    height: 41.84px;
+    color: rgb(54, 54, 54);
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/*---entry form repit application---*/
+.entry-form__repit-application{
+    position: absolute;
+    margin-top: 106px;
+    margin-left: 833.45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 506px;
+    height: 509px;
+    box-shadow: 0px 30px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(19, 19, 19);
+}
+.application-for-measurer{
+    margin-top: 28px;
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.input-fields{
+    margin-top: 39px;
+    width: 408px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.input-style__repit-application{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.input-style-inside__repit-application{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color: rgb(19, 19, 19);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+/*---ГАЛОЧКА---*/
+.confirm-consent{
+    margin-top: 16px;
+    margin-left: -115px;
+}
+.second-text{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 163.68%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.entry-form__repit-btn{
+    margin-top: 39px;
+    margin-left: 40%;
+    width: 213px;
+    height: 51px;
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.15);
+    background: rgb(227, 184, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.entry-form__repit-btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(227, 184, 115);
+}
+
+/*---piggy bank---*/
+.piggy-bank__container{
+    top: 653.44px;
+    left: 865.95px;
+    position: absolute;
+    width: 441px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.piggy-bank__img{
+    padding-top: 22px;
+}
+.piggy-bank__text{
+    color: rgb(227, 184, 115);
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/*---section 5---*/
+.fifth-section__container{
+    position: relative;
+    width: 1440px;
+    height: 1018px;
+    background-color: rgb(255, 255, 255);
+}
+.wildest-fantasies__container{
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    margin-top: 112.53px;
+    width: 1440px;
+    height: 864px;
+    background-image: url(../images/background-fifth-section.png);
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.7) inset;
+}
+.wildest-fantasies__head{
+    margin-top: 137.47px;
+    margin-left: 99px;
+    width: 411px;
+    height: 66px;
+    color: rgb(227, 184, 115);
+    font-family: "Yeseva One", serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.wildest-fantasies__working-style{
+    margin-left: 99px;
+    width: 299px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.working-style__font{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.working-style__font:hover{
+    color: rgb(227, 184, 115);
+}
+.selected-style{
+    color: rgb(227, 184, 115);
+    text-decoration: underline;
+}
+/*---IMG---*/
+.watch__img{
+    position: absolute;
+    top: 71.38px;
+    left: 587px;
+    width: 354px;
+    height: 557.88px;
+}
+.tv__img{
+    position: absolute;
+    top: 668.37px;
+    left: 587px;
+    width: 354px;
+    height: 349.37px;
+}
+.sofa__img{
+    position: absolute;
+    top: 0px;
+    left: 984px;
+    width: 354px;
+    height: 275px;
+}
+.flower__img{
+    position: absolute;
+    top: 312px;
+    left: 984px;
+    width: 354px;
+    height: 624.88px;
+}
+.mob-version__fifth-section{
+    display: none;
+}
+
+/*---section 6---*/
+.sixth-section__container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 1440px;
+    height: 1059px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.bilds-left{
+    position: absolute;
+    background-image: url(../images/svg/bilds-left.svg);
+    width: 1127px;
+    height: 505.43px;
+    opacity: 0.05;
+    top: 634.68px;
+    left: -398px;
+}
+.bilds-right{
+    position: absolute;
+    background-image: url(../images/svg/bilds-right.svg);
+    width: 1127px;
+    height: 505.43px;
+    opacity: 0.05;
+    top: 634.68px;
+    left: 711px;
+}
+
+.our-clients__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 69.14px;
+    width: 1236px;
+    height: 642.03px;
+}
+.our-clients__font{
+    color: rgb(24, 24, 24);
+    font-family: "Yeseva One", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.our-clients__logo{
+    margin-top: 13.22px;
+}
+.our-clients__text{
+    margin-top: 24.16px;
+    width: 476px;
+    height: 57px;
+    color: rgb(54, 54, 54);
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/*---reviews cards---*/
+.our-clients__reviews{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+}
+.card__review{
+    width: 376px;
+    height: 455.03px;
+}
+.client__review{
+    width: 376px;
+    height: 428px;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.04);
+    background: rgb(255, 255, 255);
+}
+.foto-and-name-client{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 24px;
+    margin-left: 20px;
+    gap: 23px;
+}
+.foto-client-first{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-image: url(../images/client/fedosova-maria.png);
+    background-position: center center;
+}
+.foto-client-second{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-image: url(../images/client/afanasyev-sergey.png);
+    background-position: 50% 0.2px;
+    background-repeat: no-repeat;
+}
+.foto-client-third{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-image: url(../images/client/kiriev-egor.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.name-client{
+    width: 178px;
+    height: 42px;
+    color: rgb(24, 24, 24);
+    font-family: "Yeseva One", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.review__text{
+    margin-top: 22px;
+    margin-left: 20px;
+    width: 324.08px;
+    height: 216px;
+    color: rgb(149, 149, 149);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.duration-of-work__container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -27.03px;
+    width: 293.75px;
+    height: 54px;
+    box-shadow: 5px 5px 20px 0px rgba(227, 184, 115, 0.5);
+    background: rgb(227, 184, 115);
+}
+.duration-of-work__font{
+    color: rgb(255, 255, 255);
+    font-family: "Yeseva One", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.square{
+    margin-right: 15.39px;
+}
+.vertical-line{
+    margin-left: 14px;
+    margin-right: 17.26px;
+    height: 54px;
+}
+.calendar{
+    margin-right: 15.02px;
+}
+
+/*---section 7---*/
+.seventh-section__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 1440px;
+    height: 953.9px;
+    background-image: url(../images/background-seventh-section.png);
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.6) inset;
+}
+
+.have-any-questions__container{
+    position: absolute;
+    width: 883px;
+    height: 445.32px;
+    background: rgb(19, 19, 19);
+    top: -222.66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name-block-and-form__container{
+    width: 520px;
+    height: 376.52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.have-any-questions__name-block{
+    color: rgb(255, 255, 255);
+    font-family: "Yeseva One", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.have-any-questions__form-and-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 520px;
+    height: 304.71px;
+}
+/*---entry form---*/
+.have-any-questions__form{
+    width: 520px;
+    height: 138.8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 58px;
+}
+.input-style__have-any-questions{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 231px;
+    height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.input-style-inside__have-any-questions{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    background: rgb(19, 19, 19);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.longer{
+    margin-top: -10px;
+    width: 516.82px;
+}
+.margin-checkbox{
+    margin-top: 46.46px;
+}
+.have-any-questions__btn{
+    margin-top: 50.45px;
+    width: 200px;
+    height: 51px;
+    box-shadow: 0px 5px 20px 0px rgba(227, 184, 115, 0.1);
+    background: rgb(227, 184, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.have-any-questions__btn:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(227, 184, 115);
+}
+
+/*---addres---*/
+.addres-and-contacts{
+    margin-top: 274.67px;
+    color: rgb(227, 184, 115);
+    font-family: "Yeseva One", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.social-network{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.social-network__icon{
+    background: none;
+    cursor: pointer;
+}
+.map{
+    margin-top: 43.29px;
+    width: 925px;
+    height: 465px;
+    background-image: url(../images/map.png);
+    background-position: 50% 50%;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 133px;
+}
+
+/*---options for mob version---*/
+.mob-version__img{
+    display: none;
+}
+
+/*---MEDIA SCREEN---*/
+@media screen and (max-width: 1300px) {
+    .header{
+        width: 1280px;
+    }
+    .header__container{
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 1105px;
+    }
+    /*---navigation---*/
+    .nav-of-site__container{
+        margin-left: 84px;
+        width: 511.6px;
+    }
+    /*---section 1---*/
+    .main{
+        max-width: 1300px;
+    }
+    .first-section__container{
+        width: 1280px;
+        height: 707px;
+        background-image: url(../images/background-first-section.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.7) inset;
+    }
+    /*---section 2---*/
+    .second-section__container{
+        width: 1280px;
+        height: 1074px;
+    }
+    /*---section 3---*/
+    .third-section__container{
+        width: 1280px;
+    }
+    /*---section 4---*/
+    .fourth-section__container{
+        padding-top: 89px;
+        padding-bottom: 89px;
+        width: 1280px;
+    }
+    .description-of-application__container{
+        left: -290px;
+    }
+    /*---entry form repit application---*/
+    .entry-form__repit-application{
+    margin-top: 106px;
+    margin-left: 774px;
+    }
+    /*---piggy bank---*/
+    .piggy-bank__container{
+        top: 653.44px;
+        left: 800px;
+    }
+    /*---section 5---*/
+    .fifth-section__container{
+        width: 1280px;
+    }
+    .wildest-fantasies__container{
+        width: 1280px;
+        height: 766px;
+        gap: 40px;
+    }
+    .wildest-fantasies__head{
+        margin-top: 121px;
+        margin-left: 87px;
+    }
+    .wildest-fantasies__working-style{
+        margin-left: 87px;
+        gap: 20px;
+    }
+    /*---IMG---*/
+    .watch__img{
+        top: 71.38px;
+        left: 507px;
+    }
+    .tv__img{
+        top: 658.37px;
+        left: 507px;
+    }
+    .sofa__img{
+        top: 0px;
+        left: 904px;
+    }
+    .flower__img{
+        top: 302px;
+        left: 904px;
+    }
+    /*---section 6---*/
+    .sixth-section__container{
+        width: 1280px;
+        height: 1059px;
+    }
+    .bilds-left{
+        left: -478px;
+    }
+    .bilds-right{
+        left: 631px;
+    }
+    /*---section 7---*/
+    .seventh-section__container{
+        width: 1280px;
+        height: 953.9px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hidden-this-object__mobil-ver{
+        display: none;
+    }
+    .header{
+        width: 768px;
+        height: 58px;
+    }
+    .header__container{
+        margin-left: 18px;
+        margin-right: 18px;
+        width: 768px;
+        justify-content: space-between;
+    }
+    /*---section 1---*/
+    .main{
+        max-width: 768px;
+    }
+    .first-section__container{
+        width: 768px;
+        height: 591px;
+    }
+    .request-for-repairs__container{
+        margin-top: 140px;
+        margin-left: 76px;
+        width: 676.11px;
+        height: 305px;
+    }
+    .request-for-repairs__header,
+    h1{
+        width: 676.11px;
+        height: 105px;
+        font-size: 31px;
+    }
+    .description-repair{
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    .buttons-for-communication__container{
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        align-items: center;
+    }
+    .calculate__btn{
+        width: 338px;
+    }
+    .submit__btn{
+        width: 338px;
+    }
+    /*---section 2---*/
+    h2{
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 138.6%;
+        letter-spacing: -7%;
+        text-align: center;
+    }
+    .second-section__container{
+        margin-top: 36px;
+        width: 768px;
+        height: 1605px;
+    }
+    .completed-projects__container{
+        margin-top: 0px;
+        width: 768px;
+        height: 552.28px;
+    }
+    .description-and-photo__container{
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .job-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 442px;
+        height: auto;
+    }
+    .mob-version__img{
+        margin-top: 210px;
+        display: flex;
+        padding: 14px;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        width: 340px;
+        height: 241.55px;
+        background-image: url(../images/mob-ver-section-two.png);
+    }
+    .press-img__setion-two{
+        width: 36px;
+        height: 36px;
+    }
+    .description-of-the-object__container{
+        margin-top: 314px;
+    }
+
+    /*---online-control__container---*/
+    .video-repair__container{
+        margin-top: 31.21px;
+        width: 340px;
+        height: 207px;
+    }
+    .mob-version-play{
+        width: 55px;
+        height: 55px;
+    }
+    .online-control__linia{
+        margin-top: 28px;
+    }
+    .text-description__online-control{
+        margin-top: 21.46px;
+        width: 550px;
+        height: 106.95px;
+        color: rgb(255, 255, 255);
+    }
+
+    /*---entry form---*/
+    .entry-form__online-control{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 63px;
+        margin-top: 61px;
+        width: 340px;
+        height: 311px;
+        display: flex;
+        flex-direction: row;
+    }
+    .input-style{
+        display: flex;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 0.5);
+        
+    }
+    .input-style-inside{
+        margin-top: 7px;
+        width: 340px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(19, 19, 19);
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    .btn__entry-form{
+        margin-top: 322.63px;
+        position: absolute;
+        width: 340px;
+        height: 51px;
+        border-radius: 2px;
+        box-shadow: 0px 15px 15px 0px rgba(227, 184, 115, 0.15);
+        background: rgb(227, 184, 115);
+        color: rgb(255, 255, 255);
+    }
+    /*---ГАЛОЧКА---*/
+    .first-checkbox{
+        margin-top: -32.7px;
+    }
+    .text{
+        color: rgb(255, 255, 255);
+    }
+
+    /*---section 3---*/
+    .third-section__container{
+        width: 768px;
+    }
+    /*---TYPES OF REPAIR---*/
+    .types-of-repair__container{
+        margin-top: 83px;
+    }
+
+    /*---cost of work---*/
+    .cost-of-work__container{
+        margin-top: 40px;
+        width: 768px;
+        height: 1630px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 177.85px;
+    }
+    .card-size{
+        width: 340px;
+        height: 365.15px;
+    }
+    .cost-of-work__description{
+        margin-top: 223px;
+        margin-left: 0px;
+        position: absolute;
+        width: 270px;
+        height: 241px;
+        gap: 10px;
+    }
+    .cost-of-work__name-card{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 138.6%;
+        letter-spacing: 0%;
+    }
+    .cost-of-work__list{
+        width: 198px;
+        height: 152px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 169.8%;
+        letter-spacing: 0%;
+    }
+    .cost-of-work__btn{
+        position: absolute;
+        margin-top: 195px;
+        margin-left: -33px;
+        width: 190.43px;
+        height: 40px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 138.6%;
+        letter-spacing: 0%;
+    }
+
+    /*---section 5---*/
+    .fifth-section__container{
+        position: relative;
+        width: 768px;
+        height: 332px;
+    }
+    .wildest-fantasies__container{
+        display: none;
+    }
+    /*---IMG---*/
+    .watch__img{
+        display: none;
+    }
+    .tv__img{
+        display: none;
+    }
+    .sofa__img{
+        display: none;
+    }
+    .flower__img{
+        display: none;
+    }
+    .mob-version__fifth-section{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 768px;
+        height: 332px;
+    }
+    .wildest-fantasies__head{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 340px;
+        height: 66px;
+    }
+    .black-background{
+        top: 210px;
+        position: absolute;
+        width: 768px;
+        height: 125px;
+        background-color: rgb(19, 19, 19);
+    }
+    .mob-version__slider{
+        margin-top: 90px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px;
+        background-image: url(../images/watch-mob-ver.png);
+        width: 340px;
+        height: 242px;
+    }
+    .press-btn__mob-version{
+        width: 36px;
+        height: 36px;
+    }
+    .btn__mob-version{
+        background: none;
+    }
+    
+    /*---section 7---*/
+    .seventh-section__container{
+        display: flex;
+        width: 768px;
+        height: auto;
+        background-color: rgb(19, 19, 19);
+        background-image: none;
+        box-shadow: none;
+    }
+    .have-any-questions__container{
+        position: absolute;
+        width: 768px;
+        height: 445.32px;
+        background: rgb(19, 19, 19);
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-block-and-form__container{
+        width: 520px;
+        height: 376.52px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .have-any-questions__form-and-btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 340px;
+        height: 419px;
+    }
+    /*---entry form---*/
+    .have-any-questions__form{
+        width: 340px;
+        height: 419px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 63px;
+    }
+    .input-style__have-any-questions{
+        width: 340px;
+        height: 45px;
+    }
+    .longer{
+        margin-top: -10px;
+        width: 340px;
+    }
+    .margin-checkbox{
+        margin-top: 46.46px;
+        padding-left: 55px;
+
+    }
+    .have-any-questions__btn{
+        margin-top: 50.45px;
+        width: 340px;
+        height: 51px;
+    }
+
+    /*---addres---*/
+    h3{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 138.6%;
+        white-space: pre-wrap;
+    }
+    .m-version__none{
+        display: none;
+    }
+    .addres-and-contacts{
+        margin-top: 813.79px;
+        width: 313px;
+        height: 70.56px;
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        white-space: wrap;
+    }
+    .social-network{
+        position: absolute;
+        margin-top: 906px;
+        display: flex;
+        flex-direction: row;
+        gap: 21px;
+        margin-bottom: 48px;
+    }
+    .social-network__icon{
+        background: none;
+        cursor: pointer;
+    }
+    .map{
+        position: absolute;
+        margin-top: 517px;
+        width: 340px;
+        height: 255px;
+        background-image: url(../images/map.png);
+        background-position: 50% 50%;
+        background-size: 150% 150%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .header{
+        width: 376px;
+    }
+    .header__container{
+        width: 376px;
+    }
+    .num-of-site{
+        margin-left: 0px;
+    }
+
+    /*---section 1---*/
+    .main{
+        max-width: 376px;
+    }
+    .first-section__container{
+        width: 375px;
+        height: 476px;
+        background-size: cover;
+        background-position: center;
+    }
+    .request-for-repairs__container{
+        margin-top: 85px;
+        margin-left: 0px;
+        width: 376px;
+        height: 476;
+    }
+    .request-for-repairs__header,
+    h1{
+        margin-left: 9px;
+        width: 339px;
+        height: 60px;
+        font-size: 23px;
+        line-height: 132.83%;
+    }
+    .description-repair{
+        margin-left: 18px;
+        width: 339px;
+        height: 94px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 135.84%;
+    }
+    .buttons-for-communication__container{
+        margin-top: 32px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+        align-items: center;
+    }
+
+    /*---section 2---*/
+    .second-section__container{
+        width: 376px;
+        height: 1605px;
+    }
+    .completed-projects__container{
+        margin-top: 0px;
+        width: 376px;
+        height: 552.28px;
+    }
+    .text-description{
+        width: 311px;
+        height: 86px;
+        text-align: center;
+    }
+    .description-and-photo__container{
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .job-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 376px;
+        height: auto;
+    }
+    .description-of-the-object__container{
+        margin-top: 314px;
+        gap: 27px;
+        width: 341px;
+        height: 145px;
+    }
+    .third-level-header__parameters{
+        width: 129px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 138.6%;
+    }
+    .additional-width{
+        width: 181px;
+    }
+    .object-parameters{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 135.84%;
+    }
+    /*---online-control__container---*/
+    .text-description__online-control{
+        width: 340px;
+        height: 106.95px;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 169.8%;
+    }
+
+     /*---section 3---*/
+    .third-section__container{
+        width: 376px;
+    }
+    /*---cost of work---*/
+    .cost-of-work__container{
+        width: 376px;
+    }
+
+    /*---section 5---*/
+    .fifth-section__container{
+        width: 376px;
+    }
+    .mob-version__fifth-section{
+        width: 376px;
+    }
+    .black-background{
+        width: 376px;
+    }
+
+    /*---section 7---*/
+    .seventh-section__container{
+        width: 376px;
+    }
+    .have-any-questions__container{
+        width: 376px;
+    }
+    .name-block-and-form__container{
+        width: 376px;
+    }
+}
